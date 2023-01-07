@@ -1,1 +1,2 @@
 This is Sample file 2
+second line sample2
