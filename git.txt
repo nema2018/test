@@ -1,0 +1,435 @@
+    1  cd
+    2  ls
+    3  cd Desktop/
+    4  ls
+    5  mkdir GitLessons
+    6  cd Git
+    7  cd GitLessons/
+    8  git config --global user.name "Nver"
+    9  git config --global user.email "nver420@mail.ru"
+   10  git config --global color.ui auto
+   11  ls
+   12  ll
+   13  git init
+   14  ll
+   15  ll 0a
+   16  ll -a
+   17  git status
+   18  touch file1
+   19  git status
+   20  git add .
+   21  git status
+   22  git commit -m "first commit"
+   23  git status
+   24  git log
+   25  git status
+   26  touch file2
+   27  git status
+   28  git add .
+   29  git status
+   30  git reset
+   31  git status
+   32  git diff file2
+   33  vim file 2
+   34  ls
+   35  vim file2
+   36  git status
+   37  vim file1
+   38  git diff file1
+   39  git diff file2
+   40  vim file2
+   41  git status
+   42  git diff file2
+   43  git add file1
+   44  git add file2
+   45  git status
+   46  git diff file1
+   47  git diff file2
+   48  git diff --staged .
+   49  git commit -m "first file second commit " file1
+   50  git status
+   51  git log
+   52  git commit -m "Commit file2 second time"
+   53  git status
+   54  git log
+   55  git log --follow
+   56  git log --follow file1
+   57  git show
+   58  clear
+   59  git add remote origin https://github.com/nema2018/WorkingRepository.git
+   60  gh auth login
+   61  github auth login
+   62  gh auth long 
+   63  ll
+   64  ssh-keygen -t rsa -b 4096 -C "itnver2018@gmail.com"
+   65  ls
+   66  ll /c/Users/User/.ssh/
+   67  cd /c/Users/User/.ssh/
+   68  ls
+   69  cat id_rsa.pub 
+   70  cd
+   71  cd Desktop/
+   72  ls
+   73  cd GitLessons/
+   74  ll
+   75  git remote -v
+   76  git remote add origin https://github.com/nema2018/WorkingRepository.git
+   77  git status
+   78  git pull origin
+   79  git pull origin master
+   80  git remote add origin https://github.com/nema2018/test.git
+   81  git pull origin master
+   82  git remote add origin https://github.com/nema2018/test.git
+   83  git remote show
+   84  git remote update https://github.com/nema2018/test.git
+   85  git remote set-url https://github.com/nema2018/test.git
+   86  git remote remove origin https://github.com/nema2018/WorkingRepository.git
+   87  git remote remove origin 
+   88  git remote add origin https://github.com/nema2018/test.git
+   89  git pull origin master
+   90  git pull origin main
+   91  ls
+   92  ls -a
+   93  git pul origin main
+   94  git pull origin main
+   95  ls -a
+   96  git push file1 origin/main 
+   97  git push origin origin/main 
+   98  ssh -T git@github.com
+   99  ll
+  100  ll -a
+  101  git pull origin 
+  102  git pull origin main 
+  103  ls -a
+  104  ssh-keygen -t ed25519 -C "itnver2018@gmail.com"
+  105  cat /c/Users/User/.ssh/id_ed25519.pub 
+  106  ssh -T git@github.com
+  107  clear
+  108  git push
+  109  git pull
+  110  git pull origin main
+  111  ls -a
+  112  git push file1
+  113  touch file.txt
+  114  git status
+  115  git add .
+  116  git commit -m "adding file for pushing to"
+  117  git status
+  118  git push file.txt
+  119  git push
+  120  git push --set-upstream origin main
+  121  git push --set-upstream origin origin/main 
+  122  git push --set-upstream origin master 
+  123  cd ..
+  124  ls
+  125  mkdir git
+  126  cd git
+  127  git init
+  128  git global user.name "Nver"
+  129  git --global user.name "Nver"
+  130  git --help
+  131  git --config user.name "Nver"
+  132  git config user.name "Mver"
+  133  git config user.email "itnver2018@gmail.com"
+  134  git status
+  135  vim test.txt
+  136  git status
+  137  git add .
+  138  git status
+  139  git commit -m "first commit"
+  140  git status
+  141  git push 
+  142  git remote add test.txt https://github.com/nema2018/test.git
+  143  git status
+  144  git push test.txt 
+  145  git push --set-upstream test.txt main
+  146  git push --set-upstream test.txt master
+  147  git status
+  148  git log
+  149  ssh -T git@github.com
+  150  git push
+  151  git push --set-upstream test.txt master 
+  152  git pull
+  153  ls
+  154  ls -a
+  155  git push
+  156  git push
+  157   git push --set-upstream test.txt master
+  158  git remote add origin https://github.com/nema2018/test.git
+  159  git remote -v
+  160  git push origin test.txt/main 
+  161  git push origin master 
+  162  git pull
+  163  ls
+  164  git clone https://github.com/nema2018/test.git
+  165  ls
+  166  cd test
+  167  ls
+  168  ls
+  169  vim test.txt
+  170  git status
+  171  git add .
+  172  git status
+  173  git commit -m "first commit"
+  174  git log
+  175  git push origin main 
+  176  git push origin origin/
+  177  cd
+  178  cd Desktop/
+  179  ls
+  180  cd git
+  181  ls
+  182  cd test
+  183  ls
+  184  git status
+  185  git push origin origin/main 
+  186  git push
+  187  git version
+  188  cd
+  189  ls
+  190  cd Desktop/
+  191  ls
+  192  cd git
+  193  ls
+  194  cd ..
+  195  ls
+  196  mkdir test
+  197  cd test/
+  198  ls
+  199  git init
+  200  ls
+  201  ls -a
+  202  touch test.txt
+  203  git status
+  204  git add .
+  205  git commit -m "first commit"
+  206  git status
+  207  git remote add origin https://github.com/nema2018/test.git
+  208  git remote -v
+  209  git push origin main
+  210  git push origin master 
+  211  cd 
+  212  cd Desktop/
+  213  ls
+  214  mkdir
+  215  mkdir git
+  216  git init
+  217  ls -a
+  218  rm ./
+  219  rm -r ./
+  220  rm -rf ./
+  221  cd git
+  222  ls
+  223  git init
+  224  ls -a
+  225  touch file.txt
+  226  git add .
+  227  git commit -m "commit"
+  228  git status
+  229  git config --global user.name "Nver"
+  230  git config --global user.email "nver420@mail.ru"
+  231  git remote add origin https://github.com/nema2018/test.git
+  232  git push origin master
+  233  git push origin main
+  234  ssh-keygen -t ed25519 -C "itnver2018@gmail.com"
+  235  ssh-keygen -t ed25519 -C "itnver2018@gmail.com"
+  236  cat /c/Users/User/.ssh/id_ed25519.pub
+  237  eval "$(ssh-agent -s)"
+  238  ssh-add ~/.ssh/id_ed25519
+  239  git clone git@github.com:nema2018/test.git
+  240  ls
+  241  cd test
+  242  git push 
+  243  toch file.txt
+  244  touch file.txt
+  245  ls
+  246  git add .
+  247  git commit -m "creating file"
+  248  git status
+  249  ls
+  250  git status
+  251  git push 
+  252  vim file.txt 
+  253  git status
+  254  git add .
+  255  git status
+  256  git commit -m "adding some text"
+  257  git push 
+  258  git pull 
+  259  ls
+  260  git pull
+  261  git checkout origin/test 
+  262  clear
+  263  touh file1.txt
+  264  touch file1.txt
+  265  git status
+  266  git add .
+  267  git commit -m "creating file1"
+  268  git pushh
+  269  git push
+  270  git push origin origin/test 
+  271  git pull origin test 
+  272  git pull origin test 
+  273  git pull
+  274  git pull origin main
+  275  ls
+  276  cat file
+  277  cat file2.txt 
+  278  clear
+  279  git branh
+  280  git branch
+  281  ll
+  282  git checkout main
+  283  git branch develop
+  284  git branch
+  285  git switch develop 
+  286  git branch
+  287  ll
+  288  git switch main
+  289  git switch develop
+  290  touch sample1.txt
+  291  echo "This is Sample file 1" >> sample1.txt 
+  292  touch sample2.txt
+  293  echo "This is Sample file 2" >> sample2.txt
+  294  ll
+  295  git status
+  296  git add .
+  297  git status
+  298  clear
+  299  git commit -am "Commit sample files"
+  300  ll
+  301  git push 
+  302  git push --set-upstream origin develop 
+  303  git status
+  304  clear
+  305  git switch main
+  306  ll
+  307  ls
+  308  ll
+  309  git switch develop
+  310  ll
+  311  git switch main
+  312  git pull
+  313  ll
+  314  git switch develop
+  315  ll
+  316  git pull 
+  317  ll
+  318  git switch main
+  319  git merge develop 
+  320  ll
+  321  cat sample1.txt 
+  322  cat sample2.txt 
+  323  ll
+  324  git push
+  325  git pull
+  326  ll
+  327  git switch develop
+  328  ll
+  329  git merge main 
+  330  ll
+  331  git push
+  332  git switch
+  333  ll
+  334  git log --onlinr
+  335  git log --oneline
+  336  ll
+  337  vim file.txt 
+  338  git status
+  339  git commit -am "Commit Reset 1"
+  340  git status
+  341  ll
+  342  vim file2.txt 
+  343  git status
+  344  git commit -am "Git Reset commit 2"
+  345  git status
+  346  git log --oneline
+  347  git reset --soft d531dd3
+  348  git status
+  349  git log --oneline
+  350  git reset d531dd3
+  351  git log oneline
+  352  git log -oneline
+  353  git log --oneline
+  354  git reset d531dd3
+  355  git log --oneline
+  356  cat file.txt 
+  357  git reset --hard d531dd3
+  358  git log --oneline
+  359  cat file.txt 
+  360  cat file2.txt 
+  361  git reset --soft d531dd3
+  362  git log --oneline
+  363  ll
+  364  mv file.txt file1.txt
+  365  ll
+  366  git status
+  367  git commit -am "rename"
+  368  git status
+  369  git add .
+  370  ll
+  371  git status
+  372  git commit -am "rename file"
+  373  git status
+  374  clear
+  375  git status
+  376  git log --oneline
+  377  ll
+  378  cat sample1.txt 
+  379  cat sample2
+  380  cat sample2.txt 
+  381  echo "second line sample1" >> sample1.txt 
+  382  cat sample1.txt 
+  383  echo "second line sample2" >> sample2.txt 
+  384  cat sample2.txt 
+  385  git status
+  386  git commit -am "commit sample1" sample1.txt sample
+  387  git commit -am "commit sample1" sample1.txt 
+  388  git add sample1.txt 
+  389  git commit -am "commit 1" sample1.txt 
+  390  git commit -m "commit 1" sample1.txt 
+  391  git status
+  392  git add sample2.txt 
+  393  git commit -m "commit 2"
+  394  git log --oneline
+  395  git push
+  396  git revert HEAD 
+  397  git push
+  398  git log --oneline
+  399  cat sample1.txt 
+  400  cat sample2.txt 
+  401  git revert c1acbde
+  402  git revert c1acbde
+  403  clear
+  404  git status
+  405  cat sample2.txt 
+  406  cat sample1.txt 
+  407  git log --oneline
+  408  git status
+  409  git push
+  410  clear
+  411  ll
+  412  echo "This is Comparison lecture" >> sample1.txt 
+  413  echo "This is Comparison lecture 2" >> sample2.txt 
+  414  git status
+  415  git diff sample1.txt
+  416  git diff sample2.txt
+  417  clear
+  418  git diff 
+  419  git add .
+  420  git commit -am "Commit"
+  421  git status
+  422  ll
+  423  git push
+  424  clear
+  425  git log --oneline
+  426  git diff 8e26a8a 530cec0
+  427  history
+  428  echo history >> git.txt
+  429  cat git.txt 
+  430  echo $history >> git.txt 
+  431  cat git.txt 
+  432  git ${history} >> git.txt
+  433  cat git.txt 
+  434  cat git.txt 
+  435  history > git.txt 
