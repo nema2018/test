@@ -1,1 +1,2 @@
 This is test file
+Thi is Stash lecture, change in file.txt
